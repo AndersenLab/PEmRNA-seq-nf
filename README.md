@@ -12,6 +12,18 @@ nextflow PEmRNAseq.nf --ref=c_elegans.PRJNA13758.WS276.genome.fa.gz --vcf=WI.202
 ```
 
 
+## Required software packages that should be in users PATH
+
+1. [nextflow-v19.07.0](https://www.nextflow.io/docs/latest/getstarted.html)
+2. [FastQC-v1.9](https://github.com/s-andrews/FastQC)
+3. [MultiQC-v1.8](https://github.com/ewels/MultiQC)
+4. [BCFtools-v1.9](https://samtools.github.io/bcftools/bcftools.html)
+5. [fastp-v0.20.0](https://github.com/OpenGene/fastp)
+6. [gffread](https://github.com/gpertea/gffread)
+7. [kallisto-v0.44.0](https://github.com/pachterlab/kallisto)
+
+
+
 ## Pipeliine parameters
 
 * --fqs
@@ -34,6 +46,7 @@ The GTF file and the strain-specific genome are used to generate strain-specific
 
 
 * --teref
+
 Transcriptome of transposons. The file in the bin folder is generated using script here: https://github.com/fansalon/TEconsensus#dfam
 
 
