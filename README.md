@@ -32,11 +32,11 @@ We use a sample sheet as the input of sequences here, see the example in `test.t
 
 * --ref
 
-Reference genome from WormBase
+Reference genome from WormBase https://wormbase.org/
 
 * --vcf
 
-VCF file from CeNDR. 
+VCF file from CeNDR https://www.elegansvariation.org/data/release/latest 
 This VCF file and the reference genome are used to generate SNVs-substituted genome for each strain.
 
 * --gtf
