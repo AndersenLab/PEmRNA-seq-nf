@@ -56,7 +56,11 @@ Transcriptome of transposons. The file in the bin folder is generated using scri
 * --email
 
 Add your email with command
- 
+
+* --out
+
+Add result folder name. The default is "PEmRNAseq-*date*"
+
  
 ## Output
 
@@ -64,8 +68,8 @@ This pipeline will generate a nextflow `report.html` in your working directory.
 
 Below are major results under `PEmRNAseq-*date*/`.
 ```
-├── mulitqc_report/         # RNA-seq reads quality pre- and post- trim by FastQC, and mapped reads by Kallisto
-└── kallito/                # kallisto mapping output for each sample, with expression quantification in tsv and h5 format
+├── mulitqc_report/   # RNA-seq reads quality evaluation pre- and post- trim by FastQC, and number of mapped reads quantified by Kallisto
+└── kallito/          # kallisto mapping output for each sample, with expression quantification in .tsv and .h5  
 
 ```
  
