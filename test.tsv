@@ -1,6 +1,6 @@
-CB4856	GZ_B5_I9	/projects/b1059/projects/Gaotian/git/PEmRNA-seq-nf/test_data/CB4856_GZ_B5_I9_1.fastq.gz	/projects/b1059/projects/Gaotian/git/PEmRNA-seq-nf/test_data/CB4856_GZ_B5_I9_2.fastq.gz	pool_1
-CB4856	GZ_B6_C6	/projects/b1059/projects/Gaotian/git/PEmRNA-seq-nf/test_data/CB4856_GZ_B6_C6_1.fastq.gz	/projects/b1059/projects/Gaotian/git/PEmRNA-seq-nf/test_data/CB4856_GZ_B6_C6_2.fastq.gz	pool_2
-CB4856	GZ_B1_H3	/projects/b1059/projects/Gaotian/git/PEmRNA-seq-nf/test_data/CB4856_GZ_B1_H3_1.fastq.gz	/projects/b1059/projects/Gaotian/git/PEmRNA-seq-nf/test_data/CB4856_GZ_B1_H3_2.fastq.gz	pool_3
-N2	GZ_B7_A7	/projects/b1059/projects/Gaotian/git/PEmRNA-seq-nf/test_data/N2_GZ_B7_A7_1.fastq.gz	/projects/b1059/projects/Gaotian/git/PEmRNA-seq-nf/test_data/N2_GZ_B7_A7_2.fastq.gz	pool_1
-N2	GZr_B6_E4	/projects/b1059/projects/Gaotian/git/PEmRNA-seq-nf/test_data/N2_GZr_B6_E4_1.fastq.gz	/projects/b1059/projects/Gaotian/git/PEmRNA-seq-nf/test_data/N2_GZr_B6_E4_2.fastq.gz	pool_2
-N2	GZm_B6_H3	/projects/b1059/projects/Gaotian/git/PEmRNA-seq-nf/test_data/N2_GZm_B6_H3_1.fastq.gz	/projects/b1059/projects/Gaotian/git/PEmRNA-seq-nf/test_data/N2_GZm_B6_H3_2.fastq.gz	pool_3
+CB4856	GZ_B5_I9	test_data/CB4856_GZ_B5_I9_1.fastq.gz	test_data/CB4856_GZ_B5_I9_2.fastq.gz	pool_1
+CB4856	GZ_B6_C6	test_data/CB4856_GZ_B6_C6_1.fastq.gz	test_data/CB4856_GZ_B6_C6_2.fastq.gz	pool_2
+CB4856	GZ_B1_H3	test_data/CB4856_GZ_B1_H3_1.fastq.gz	test_data/CB4856_GZ_B1_H3_2.fastq.gz	pool_3
+N2	GZ_B7_A7	test_data/N2_GZ_B7_A7_1.fastq.gz	test_data/N2_GZ_B7_A7_2.fastq.gz	pool_1
+N2	GZr_B6_E4	test_data/N2_GZr_B6_E4_1.fastq.gz	test_data/N2_GZr_B6_E4_2.fastq.gz	pool_2
+N2	GZm_B6_H3	test_data/N2_GZm_B6_H3_1.fastq.gz	test_data/N2_GZm_B6_H3_2.fastq.gz	pool_3
