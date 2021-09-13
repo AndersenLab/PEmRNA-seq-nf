@@ -37,11 +37,13 @@ Reference genome from WormBase https://wormbase.org/
 * --vcf
 
 VCF file from CeNDR https://www.elegansvariation.org/data/release/latest 
+
 This VCF file and the reference genome are used to generate SNVs-substituted genome for each strain.
 
 * --gtf
 
 Unzipped GTF file from WormBase.
+
 The GTF file and the strain-specific genome are used to generate strain-specific transcriptome.
 
 
