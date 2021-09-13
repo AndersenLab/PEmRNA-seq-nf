@@ -30,6 +30,8 @@ nextflow PEmRNAseq.nf --ref=c_elegans.PRJNA13758.WS276.genome.fa.gz --vcf=WI.202
 
 We use a sample sheet as the input of sequences here, see the example in `test.tsv`.
 
+Each column represent `strain_name` `sample_unique_ID` `fastq_1` `fastq_2` `seq-pool`
+
 * --ref
 
 Reference genome from WormBase https://wormbase.org/
@@ -50,6 +52,24 @@ The GTF file and the strain-specific genome are used to generate strain-specific
 * --teref
 
 Transcriptome of transposons. The file in the bin folder is generated using script here: https://github.com/fansalon/TEconsensus#dfam
+
+* --email
+
+Add your email with command
+ 
+ 
+## Output
+
+This pipeline will generate a nextflow `report.html` in your working directory.
+
+Below are major results under `PEmRNAseq-*date*/`.
+```
+├── mulitqc_report/         # RNA-seq reads quality pre- and post- trim by FastQC, and mapped reads by Kallisto
+└── kallito/                # kallisto mapping output for each sample, with expression quantification in tsv and h5 format
+
+```
+ 
+
 
 
 
