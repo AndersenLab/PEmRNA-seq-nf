@@ -4,7 +4,7 @@
 
 date = new Date().format( 'yyyyMMdd' )
 params.out = "PEmRNAseq-${date}"
-params.email = "gaotian.zhang@northwestern.edu"
+params.email = ""
 
 
 
