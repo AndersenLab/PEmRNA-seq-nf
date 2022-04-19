@@ -1,6 +1,6 @@
 # PEmRNA-seq-nf
 
-A Nextflow pipeline used for quantification and quanlity control for PE mRNA-seq data.
+A Nextflow pipeline used for quantification and quality control for PE mRNA-seq data.
 
 ## Execution of pipeline using Nextflow
 ```
