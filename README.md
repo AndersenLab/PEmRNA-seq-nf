@@ -2,6 +2,9 @@
 
 A Nextflow pipeline used for quantification and quality control for PE mRNA-seq data.
 
+Citation: https://doi.org/10.5281/zenodo.6595320 
+          https://doi.org/10.1038/s41467-022-31208-4
+
 ## Execution of pipeline using Nextflow
 ```
 git clone https://github.com/AndersenLab/PEmRNA-seq-nf.git
